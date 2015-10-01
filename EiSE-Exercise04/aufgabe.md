@@ -1,0 +1,10 @@
+
+Ziel: Vertraut machen mit der Implementierung der Flashcards-Anwendung
+In Ihrem Übungsverzeichnis finden Sie den Quelltext zu einer ersten Version einer Flashcards-Anwendung. Diese Anwendung werden Sie im Laufe des Semesters weiterentwickeln. Der vorgegeben Code ist lauffähig und kann durch Ausführen der Klasse Main gestartet werden. In dieser Aufgabe sollen Sie die Anwendung, um drei zusätz-liche Funktionalitäten erweitern. Die entsprechenden Stellen im Code sind durch TODO Kommentare markiert, die Ihnen in der Eclipse Tasks-View (siehe untenstehende Abbildung) angezeigt werden.
+
+a) Korrektur der Flashcards-Übersicht (1 Punkt)
+Die Übersicht der Flashcards-Anwendung soll eine Liste der Fragetexte aller Karten anzeigen. In der vorge-gebenen Version wird ein Java Objekt-Identifier, bestehend aus Klassenname und einer Speicheradresse, angezeigt. Passen Sie die Benutzer Schnittstelle an, um eine entsprechende Anzeige der Fragetexte zu er-zielen. Hierzu ist es Hilfreich eine Implementierung von ListCellRenderer zu erstellen.
+b) Korrektur des „Learn“-Buttons (1 Punkt)
+Passen Sie die Funktionalität des „Learn“-Buttons an, so dass dieser nur gedrückt werden kann, wenn mindestens eine Karte in dem aktuellen Satz von Flashcards enthalten ist. Testen Sie manuell, dass sich die Anwendung „korrekt“ verhält, wenn keine Flashcard vorhanden ist. Vergewissern Sie sich manuell der Korrektheit Ihrer Implementierung.
+c) Implementierung der „New“-Funktionalität (1 Punkt)
+Durch das Auswählen des Menüpunktes „File → New“ soll ein neues Haupt-Fenster mit einem neuen Satz von Flashcards geöffnet werden. Der Menüpunkt ist bereits erstellt worden, ist aber in der vorgegebenen Version noch mit keiner Funktionalität belegt. Fügen Sie die entsprechende Funktionalität in Ihrer Flashcards-Anwendung hinzu.
